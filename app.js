@@ -157,7 +157,7 @@ class GridSystem {
         this.backupMatrix1 = JSON.parse(JSON.stringify(matrix));
         this.cellSize = 40;
         this.padding = 2;
-        this.startingSteps = 100;
+        this.startingSteps = 0;
         this.maxSteps = 150;
         //this.tempSteps = 0;
         this.winY = 11;
